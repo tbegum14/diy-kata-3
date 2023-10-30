@@ -6,4 +6,3 @@ const reachDestination = (distance, speed) => {
 
 module.exports = reachDestination;
 
-console.log(reachDestination(44, 10))

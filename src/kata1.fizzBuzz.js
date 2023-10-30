@@ -4,4 +4,3 @@ const fizzBuzz = (number) => {
 
 module.exports = fizzBuzz;
 
-console.log(fizzBuzz(4))

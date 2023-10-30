@@ -1,5 +1,5 @@
 const booleanToWord = (boolean) => {
-    return (boolean==='Yes')? true: (boolean==='No')? false: undefined;
+    return (boolean.toLowerCase()==='yes')? true: (boolean.toLowerCase==='no')? false:undefined;
 };
  
 module.exports = booleanToWord;
