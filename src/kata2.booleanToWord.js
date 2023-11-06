@@ -1,6 +1,6 @@
 const booleanToWord = (boolean) => {
-    return (boolean.toLowerCase()==='yes')? true: (boolean.toLowerCase==='no')? false:undefined;
+  return boolean === true ? "Yes" : "No";
 };
- 
-module.exports = booleanToWord;
 
+module.exports = booleanToWord;
+git st
